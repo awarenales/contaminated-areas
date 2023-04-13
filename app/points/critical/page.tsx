@@ -36,7 +36,6 @@ export default function CriticalPoints() {
 
   if (isLoading) return <p>Carregando...</p>
   if (data.length === 0) return <p>Nenhum dado a exibir</p>
-  console.log(data)
   return (
     <TableContainer>
       <Table variant="simple">
